@@ -58,12 +58,47 @@ nav > ul {
     justify-content: space-around;
 }
 
-nav > ul > li {
+nav > ul > a > li {
     display: inline;
     font-weight: bold;
 }
 
-nav > ul > li:hover {
+nav > ul > a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav > ul > a:hover {
     color: #ff4403;
     cursor: pointer;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.233);;
+}
+
+footer > div > ul > a > li {
+    list-style-type: none;
+    color: #646464;
+}
+
+footer > div > ul > a > li, h1 {
+    margin-bottom: 20px;
+}
+
+footer > div h1 {
+    font-size: 1.2em;
+}
+
+footer > div > ul > a {
+    text-decoration: none;
+}
+
+footer > div > ul > a > li:hover {
+    color: #000;
 }
