@@ -1,53 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/form.css">
     <title>Saturno Sports</title>
-    <style>
-        body {
-            background-color: #fff;
-        }
-
-        main > div#container {
-            height: 100vh;
-            width: 100vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        div#form > form > fieldset {
-            display: flex;
-            flex-direction: column;
-            padding: 40px;
-        }
-
-        div#form > form > fieldset > input {
-            margin-bottom: 30px;
-            width: 100%;
-            height: 22px;
-        }
-
-        div#form > form > fieldset > input#submit {
-            height: 30px;
-            background-color: #ff4403;
-            color: #fff;
-        }
-
-        div#form > form > fieldset > input#submit:hover {
-            cursor: pointer;
-            background-color: #f57f62;
-        }
-    </style>
 </head>
+
 <body>
     <header>
-        <img src="images/logo-saturno.png" alt="Logo Saturno" height="100px" width="100px">
-        <input type="text" name="procura" id="iprocura"
-        placeholder="O que você procura?">
+        <a href="index.html"><img src="images/logo-saturno.png" alt="Logo Saturno" height="100px" width="100px"></a>
+        <input type="text" name="procura" id="iprocura" placeholder="O que você procura?">
         <ul>
             <li><a href="login.html"><img src="images/login.png" alt="Icone Login" width="45px" height="45px"></a></li>
             <li><a href="#"><img src="images/carrinho.png" alt="Icone Login" width="45px" height="45px"></a></li>
@@ -55,10 +21,18 @@
     </header>
     <nav>
         <ul>
-            <li>Calçados</li>
-            <li>Roupas</li>
-            <li>Acessórios</li>
-            <li>Infantil</li>
+            <a href="calcados.html">
+                <li>Calçados</li>
+            </a>
+            <a href="#">
+                <li>Roupas</li>
+            </a>
+            <a href="#">
+                <li>Acessórios</li>
+            </a>
+            <a href="#">
+                <li>Infantil</li>
+            </a>
         </ul>
     </nav>
     <main>
@@ -76,8 +50,46 @@
             </div>
         </div>
     </main>
+    <hr>
     <footer>
-
+        <div>
+            <h1>Informações</h1>
+            <ul>
+                <a href="https://www.instagram.com/mariamosadasilva/" target="_blank">
+                    <li>Escola: EEEP Maria Môsa</li>
+                </a>
+                <a href="#">
+                    <li>Matéria: HTML/CSS</li>
+                </a>
+                <a href="https://www.instagram.com/israel_douglas/" target="_blank">
+                    <li>Prof: Israel Douglas</li>
+                </a>
+                <a href="https://www.instagram.com/infor_mms23/" target="_blank">
+                    <li>Turma: 1 Ano C</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <h1>Integrantes</h1>
+            <ul>
+                <a href="https://www.instagram.com/10_raffa/" target="_blank">
+                    <li>Rafael Martins</li>
+                </a>
+                <a href="https://www.instagram.com/giulio.fernandes/" target="_blank">
+                    <li>Giulio Alves</li>
+                </a>
+                <a href="https://www.instagram.com/emanuelclemente_/" target="_blank">
+                    <li>Emanuel Clemente</li>
+                </a>
+                <a href="https://www.instagram.com/wilrelikia/" target="_blank">
+                    <li>Antônio Willians</li>
+                </a>
+                <a href="https://www.instagram.com/josivxn/" target="_blank">
+                    <li>Josivan</li>
+                </a>
+            </ul>
+        </div>
     </footer>
 </body>
+
 </html>
