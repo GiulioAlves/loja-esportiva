@@ -5,26 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="iamges/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/form.css">
     <title>Saturno Sports</title>
-    <style>
-        body {
-            background-color: #fff;
-        }
-
-        main > div#container {
-            height: 100vh;
-            width: 100vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        div#form > form > fieldset {
-            display: flex;
-            flex-direction: column;
-            padding: 40px;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -38,18 +20,84 @@
     </header>
     <nav>
         <ul>
-            <li>Calçados</li>
-            <li>Roupas</li>
-            <li>Acessórios</li>
-            <li>Infantil</li>
+            <a href="calcados.html">
+                <li>Calçados</li>
+            </a>
+            <a href="#">
+                <li>Roupas</li>
+            </a>
+            <a href="#">
+                <li>Acessórios</li>
+            </a>
+            <a href="#">
+                <li>Infantil</li>
+            </a>
         </ul>
     </nav>
     <main>
         <div id="container">
             <div id="form">
-
+                <form action="cadastro.php" method="post" autocomplete="off">
+                    <fieldset>
+                        <legend>Faça seu cadastro</legend>
+                        Nome Completo
+                        <input type="text" name="nome" id="inome" required>
+                        Email
+                        <input type="email" name="email" id="iemail" required>
+                        Nome de usuario
+                        <input type="text" name="usuario" id="isuario" required minlength="6" maxlength="12">
+                        Data de Nascimento
+                        <input type="date" name="data" id="idata" required>
+                        Senha
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="16">
+                        Confirme a senha
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="16">
+                        <input type="submit" value="Enviar" id="submit">
+                        <p>Já possui uma conta? <a href="login.html">Faça seu login</a></p>
+                    </fieldset>
+                </form>
             </div>
         </div>
     </main>
+    <hr>
+    <footer>
+        <div>
+            <h1>Informações</h1>
+            <ul>
+                <a href="https://www.instagram.com/mariamosadasilva/" target="_blank">
+                    <li>Escola: EEEP Maria Môsa</li>
+                </a>
+                <a href="#">
+                    <li>Matéria: HTML/CSS</li>
+                </a>
+                <a href="https://www.instagram.com/israel_douglas/" target="_blank">
+                    <li>Prof: Israel Douglas</li>
+                </a>
+                <a href="https://www.instagram.com/infor_mms23/" target="_blank">
+                    <li>Turma: 1 Ano C</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <h1>Integrantes</h1>
+            <ul>
+                <a href="https://www.instagram.com/10_raffa/" target="_blank">
+                    <li>Rafael Martins</li>
+                </a>
+                <a href="https://www.instagram.com/giulio.fernandes/" target="_blank">
+                    <li>Giulio Alves</li>
+                </a>
+                <a href="https://www.instagram.com/emanuelclemente_/" target="_blank">
+                    <li>Emanuel Clemente</li>
+                </a>
+                <a href="https://www.instagram.com/wilrelikia/" target="_blank">
+                    <li>Antônio Willians</li>
+                </a>
+                <a href="https://www.instagram.com/josivxn/" target="_blank">
+                    <li>Josivan</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
