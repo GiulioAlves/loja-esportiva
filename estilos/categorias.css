@@ -6,10 +6,40 @@ body {
 
 main {
     padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
-main > div {
-    background-color: #fff;
-    width: 20vw;
-    height: 50vh;
+main > div.produto {
+    border: 1px solid rgba(46, 46, 46, 0.171);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > div.produto:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+main > div.produto > img {
+    height: 40vh;
+}
+
+main > div.produto > div.descricao > p.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+main > div.produto > div.descricao > p.preco {
+    font-size: 1.3em;
+}
+
+main > div.produto > div.descricao > p.desconto {
+    color: rgba(46, 46, 46, 0.74);
 }
