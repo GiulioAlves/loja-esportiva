@@ -29,7 +29,7 @@ header > div {
     width: 70%;
     height: 10vh;
     padding: 5px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 10px;
 }
 
@@ -39,12 +39,11 @@ header > div > input {
     border-radius: 5px;
     border: none;
     padding: 10px;
-    background-color: #000;
-    color: #fff;
 }
 
 header > div > a > img {
-    height: 50px;
+    height: 40px;
+    margin-left: 5px;
 }
 
 header > div > img:hover {
