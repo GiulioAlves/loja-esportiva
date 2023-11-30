@@ -68,7 +68,7 @@ header > ul > li:hover {
 
 nav {
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     list-style-type: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.205);
