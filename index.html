@@ -12,26 +12,25 @@
         }
 
         main {
-            padding: 20px 0px 20px 0px;
+            padding: 20px 20px 0px 15px;
         }
 
-        main > section#promocao {
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        main > section#promocao > h1 {
-            margin-bottom: 5px;
-            margin-top: 25px;
-        }
-
-        main section > a > img {
+        main > section > a > img {
             width: 100%;
             display: block;
-            margin: auto;
+            margin: 0 auto 40px auto;
             cursor: pointer;
+        }
+
+        main > section.desk {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        main > section#desk > a > img {
+            width: 100%;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -69,7 +68,17 @@
             <a href="#"><img src="images/principal/promocao.jpg" alt="" ></a>
         </section>
         <section>
-
+            <a href="#"><img src="images/principal/banner.jpg" alt="" ></a>
+        </section>
+        <section class="desk">
+            <a href="#"><img src="images/principal/desk1.jpg" alt=""></a>
+            <a href="#"><img src="images/principal/desk2.jpg" alt=""></a>
+            <a href="#"><img src="images/principal/desk3.jpg" alt=""></a>
+        </section>
+        <section class="desk">
+            <a href="#"><img src="images/principal/desk4.jpg" alt=""></a>
+            <a href="#"><img src="images/principal/desk5.jpg" alt=""></a>
+            <a href="#"><img src="images/principal/desk6.jpg" alt=""></a>
         </section>
     </main>
     <footer>
