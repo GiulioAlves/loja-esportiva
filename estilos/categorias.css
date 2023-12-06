@@ -19,6 +19,11 @@ main > div.produto {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.3s;
+}
+
+main > div.produto:hover {
+    transform: scale(1.05);
 }
 
 main > div.produto:hover {
