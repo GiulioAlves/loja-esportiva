@@ -15,7 +15,8 @@
     }
 
     header > div > a > img {
-        height: 35px;
+        height: 30px;
+        margin-left: 0;
     }
 
     header > ul > li > a > img {
