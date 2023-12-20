@@ -37,14 +37,15 @@ header > a > img {
 header > div {
     display: flex;
     align-items: center;
-    width: 70%;
-    height: 10vh;
+    justify-content: center;
+    width: 80%;
+    height: 9vh;
 }
 
 header > div > input {
     background-color: #1a1a1a;
     color: #fff;
-    width: 95%;
+    width: 90%;
     height: 50px;
     border-radius: 5px;
     border: none;
