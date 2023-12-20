@@ -15,8 +15,7 @@
     }
 
     header > div > a > img {
-        height: 25px;
-        margin-left: 0;
+        display: none;
     }
 
     header > ul > li > a > img {
